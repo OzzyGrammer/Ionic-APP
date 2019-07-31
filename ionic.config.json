@@ -1,5 +1,7 @@
 {
   "name": "Herenow",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

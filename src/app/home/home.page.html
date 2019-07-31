@@ -1,14 +1,32 @@
+<head>
+
+	<style>
+  
+	</style>
+</head>
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title >
+      Here am I
+
+
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <ion-button expand="full" color="success" (click) ="getGeolocation()">Share current location
+      <ion-icon slot="end" name="pin"></ion-icon>
+
+    </ion-button>
+
   </div>
+  <div>
+  	<p>
+  		<br>Location : {{geoAddress }}
+  	</p>
+  </div>
+
 </ion-content>
